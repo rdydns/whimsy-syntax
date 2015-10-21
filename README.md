@@ -1,4 +1,4 @@
-# whimsy-syntax theme
+# whimsy-syntax
 
 A theme for [Atom](https://atom.io/) inspired by [Carbonmade](https://carbonmade.com/).
 
