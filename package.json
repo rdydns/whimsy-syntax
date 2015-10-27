@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "whimsy-syntax",
   "theme": "syntax",
   "version": "1.0.0",
@@ -11,5 +12,20 @@
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
+=======
+  "name": "one-dark-syntax",
+  "theme": "syntax",
+  "version": "1.1.1",
+  "description": "A dark syntax theme",
+  "keywords": [
+    "dark",
+    "blue",
+    "syntax"
+  ],
+  "repository": "https://github.com/atom/one-dark-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+>>>>>>> f481d062d5605fe85e905556ffc2d781eb6a3a66
   }
 }
