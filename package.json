@@ -1,7 +1,7 @@
 {
   "name": "whimsy-syntax",
   "theme": "syntax",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A theme for Atom inspired by Carbonmade",
   "keywords": [
     "dark",
