@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 Copyright (c) 2015 Rodney Dennis
-=======
-Copyright (c) 2014 GitHub Inc.
->>>>>>> f481d062d5605fe85e905556ffc2d781eb6a3a66
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
