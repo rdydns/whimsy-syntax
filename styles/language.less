@@ -1,116 +1,113 @@
-// Language syntax highlighting
-
 .comment {
-  color: @mono-3;
+  color: @subtle;
   font-style: italic;
 }
 
 .entity {
-
   &.name.type {
-    color: @hue-6-2;
+    color: @orange-2;
   }
 
   &.other.inherited-class {
-    color: @hue-4;
+    color: @green;
   }
 }
 
 .keyword {
-  color: @hue-3;
+  color: @purple;
 
   &.control {
-    color: @hue-3;
+    color: @purple;
   }
 
   &.operator {
-    color: @mono-1;
+    color: @primary;
   }
 
   &.other.special-method {
-    color: @hue-2;
+    color: @blue;
   }
 
   &.other.unit {
-    color: @hue-6;
+    color: @orange;
   }
 }
 
 .storage {
-  color: @hue-3;
+  color: @purple;
 
   &.type {
     &.annotation,
     &.primitive {
-      color: @hue-3;
+      color: @purple;
     }
   }
 
   &.modifier {
     &.package,
     &.import {
-      color: @mono-1;
+      color: @primary;
     }
   }
 }
 
 .constant {
-  color: @hue-6;
+  color: @orange;
 
   &.variable {
-    color: @hue-6;
+    color: @orange;
   }
 
   &.character.escape {
-    color: @hue-1;
+    color: @cyan;
   }
 
   &.numeric {
-    color: @hue-6;
+    color: @orange;
   }
 
   &.other.color {
-    color: @hue-1;
+    color: @cyan;
   }
 
   &.other.symbol {
-    color: @hue-1;
+    color: @cyan;
   }
 }
 
 .variable {
-  color: @hue-5;
+  color: @red;
 
   &.interpolation {
-    color: @hue-5-2;
+    color: @red-2;
   }
 
   &.parameter {
-    color: @mono-1;
+    color: @primary;
   }
 }
 
 .string {
-  color: @hue-4;
+  color: @green;
 
 
   &.regexp {
-    color: @hue-1;
+    color: @cyan;
 
     .source.ruby.embedded {
-      color: @hue-6-2;
+      color: @orange-2;
     }
   }
 
   &.other.link {
-    color: @hue-5;
+    color: @red;
   }
 }
 
 .punctuation {
   &.definition {
     &.comment {
-      color: @mono-3;
+      color: @subtle;
     }
 
     &.method-parameters,
@@ -119,127 +116,127 @@
     &.separator,
     &.seperator,
     &.array {
-      color: @mono-1;
+      color: @primary;
     }
 
     &.heading,
     &.identity {
-      color: @hue-2;
+      color: @blue;
     }
 
     &.bold {
-      color: @hue-6-2;
+      color: @orange-2;
       font-weight: bold;
     }
 
     &.italic {
-      color: @hue-3;
+      color: @purple;
       font-style: italic;
     }
   }
 
   &.section {
     &.embedded {
-      color: @hue-5-2;
+      color: @red-2;
     }
 
     &.method,
     &.class,
     &.inner-class {
-      color: @mono-1;
+      color: @primary;
     }
   }
 }
 
 .support {
   &.class {
-    color: @hue-6-2;
+    color: @orange-2;
   }
 
   &.type {
-    color: @hue-1;
+    color: @cyan;
   }
 
   &.function  {
-    color: @hue-1;
+    color: @cyan;
 
     &.any-method {
-      color: @hue-2;
+      color: @blue;
     }
   }
 }
 
 .entity {
   &.name.function {
-    color: @hue-2;
+    color: @blue;
   }
 
   &.name.class,
   &.name.type.class {
-    color: @hue-6-2;
+    color: @orange-2;
   }
 
   &.name.section {
-    color: @hue-2;
+    color: @blue;
   }
 
   &.name.tag {
-    color: @hue-5;
+    color: @red;
   }
 
   &.other.attribute-name {
-    color: @hue-6;
+    color: @orange;
 
     &.id {
-      color: @hue-2;
+      color: @blue;
     }
   }
 }
 
 .meta {
   &.class {
-    color: @hue-6-2;
+    color: @orange-2;
 
     &.body {
-      color: @mono-1;
+      color: @primary;
     }
   }
 
   &.method-call,
   &.method {
-    color: @mono-1;
+    color: @primary;
   }
 
   &.definition {
     &.variable {
-      color: @hue-5;
+      color: @red;
     }
   }
 
   &.link {
-    color: @hue-6;
+    color: @orange;
   }
 
   &.require {
-    color: @hue-2;
+    color: @blue;
   }
 
   &.selector {
-    color: @hue-3;
+    color: @purple;
   }
 
   &.separator {
     background-color: #373b41;
-    color: @mono-1;
+    color: @primary;
   }
 
   &.tag {
-    color: @mono-1;
+    color: @primary;
   }
 }
 
 .none {
-  color: @mono-1;
+  color: @primary;
 }
 
 .invalid {
@@ -253,48 +250,47 @@
   }
 }
 
-// Languages -------------------------------------------------
-
+// Languages
 .markup {
   &.bold {
-    color: @hue-6;
+    color: @orange;
     font-weight: bold;
   }
 
   &.changed {
-    color: @hue-3;
+    color: @purple;
   }
 
   &.deleted {
-    color: @hue-5;
+    color: @red;
   }
 
   &.italic {
-    color: @hue-3;
+    color: @purple;
     font-style: italic;
   }
 
   &.heading {
-    color: @hue-5;
+    color: @red;
 
     .punctuation.definition.heading {
-      color: @hue-2;
+      color: @blue;
     }
   }
 
   &.link {
-    color: @hue-3;
+    color: @purple;
   }
 
   &.inserted {
-    color: @hue-4;
+    color: @green;
   }
 
   &.quote {
-    color: @hue-6;
+    color: @orange;
   }
 
   &.raw {
-    color: @hue-4;
+    color: @green;
   }
 }

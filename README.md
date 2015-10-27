@@ -1,5 +1,3 @@
-# whimsy-syntax
+# whimsy-syntax [![apm](https://img.shields.io/apm/v/whimsy-syntax.svg)](https://atom.io/themes/whimsy-syntax)
 
-A theme for [Atom](https://atom.io/) inspired by [Carbonmade](https://carbonmade.com/).
-
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+A theme for [Atom](https://atom.io/) inspired by [Carbonmade](https://carbonmade.com/)

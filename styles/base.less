@@ -1,6 +1,7 @@
 @import "syntax-variables";
 
-atom-text-editor, :host {
+atom-text-editor,
+:host {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
 
@@ -141,7 +142,6 @@ atom-text-editor .search-results .marker.current-result .region,
 .string {
   color: @green;
 
-
   &.regexp {
     color: @cyan;
 
@@ -187,7 +187,6 @@ atom-text-editor .search-results .marker.current-result .region,
   &.section.embedded {
     color: darken(@red, 10%);
   }
-
 }
 
 .support {

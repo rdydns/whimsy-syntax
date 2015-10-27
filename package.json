@@ -4,8 +4,9 @@
   "version": "1.0.0",
   "description": "A theme for Atom inspired by Carbonmade",
   "keywords": [
-    "syntax",
-    "theme"
+    "dark",
+    "purple",
+    "whimsy"
   ],
   "repository": "https://github.com/atom/whimsy-syntax",
   "license": "MIT",

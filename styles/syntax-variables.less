@@ -1,56 +1,51 @@
 @import "colors";
 
-// Official Syntax Variables -----------------------------------
-
-// General colors
-@syntax-text-color:            @syntax-fg;
-@syntax-cursor-color:          @syntax-accent;
-@syntax-selection-color:       lighten(@syntax-background-color, 10%);
+// General
+@syntax-text-color           : @syntax-fg;
+@syntax-cursor-color         : @syntax-accent;
+@syntax-selection-color      : #3E3D4F;
 @syntax-selection-flash-color: @syntax-accent;
-@syntax-background-color:      @syntax-bg;
+@syntax-background-color     : @syntax-bg;
 
-// Guide colors
-@syntax-wrap-guide-color:          @syntax-guide;
-@syntax-indent-guide-color:        @syntax-guide;
+// Guides
+@syntax-wrap-guide-color         : @syntax-guide;
+@syntax-indent-guide-color       : @syntax-guide;
 @syntax-invisible-character-color: @syntax-guide;
 
-// For find and replace markers
-@syntax-result-marker-color:          @syntax-fg;
+// Finder
+@syntax-result-marker-color         : @syntax-fg;
 @syntax-result-marker-color-selected: @syntax-accent;
 
-// Gutter colors
-@syntax-gutter-text-color:                @syntax-gutter;
-@syntax-gutter-text-color-selected:       @syntax-fg;
-@syntax-gutter-background-color:          @syntax-bg; // unused
-@syntax-gutter-background-color-selected: lighten(@syntax-bg, 2%);
+// Gutter
+@syntax-gutter-text-color               : @syntax-gutter;
+@syntax-gutter-text-color-selected      : @syntax-fg;
+@syntax-gutter-background-color         : @syntax-bg; // unused
+@syntax-gutter-background-color-selected: lighten(@syntax-bg, 8%);
 
-// Git colors - For git diff info. i.e. in the gutter
-@syntax-color-renamed:  hsl(208, 100%, 60%);
-@syntax-color-added:    hsl(150,  60%, 54%);
-@syntax-color-modified: hsl(40,   60%, 70%);
-@syntax-color-removed:  hsl(0,    70%, 60%);
+// Git (For git diff info. i.e. in the gutter)
+@syntax-color-renamed : fadeOut(@blue, 40%);
+@syntax-color-added   : fadeOut(@green, 40%);
+@syntax-color-modified: fadeOut(@orange, 40%);
+@syntax-color-removed : fadeOut(@red, 40%);
 
-// For language entity colors
-@syntax-color-variable:   @hue-5;
-@syntax-color-constant:   @hue-6;
-@syntax-color-property:   @syntax-fg;
-@syntax-color-value:      @syntax-fg;
-@syntax-color-function:   @hue-2;
-@syntax-color-method:     @hue-2;
-@syntax-color-class:      @hue-6-2;
-@syntax-color-keyword:    @hue-3;
-@syntax-color-tag:        @hue-5;
-@syntax-color-attribute:  @hue-6;
-@syntax-color-import:     @hue-3;
-@syntax-color-snippet:    @hue-4;
+// Languages
+@syntax-color-variable : @red;
+@syntax-color-constant : @orange;
+@syntax-color-property : @syntax-fg;
+@syntax-color-value    : @syntax-fg;
+@syntax-color-function : @blue;
+@syntax-color-method   : @blue;
+@syntax-color-class    : @orange-2;
+@syntax-color-keyword  : @purple;
+@syntax-color-tag      : @red;
+@syntax-color-attribute: @orange;
+@syntax-color-import   : @purple;
+@syntax-color-snippet  : @green;
 
+// Custom (don't use in packages)
+@syntax-cursor-line  : lighten(@syntax-bg, 2%); // needs to be semi-transparent to show serach results
 
-// Custom Syntax Variables -----------------------------------
-// Don't use in packages
-
-@syntax-cursor-line: hsla(@syntax-hue, 100%,  80%, .04); // needs to be semi-transparent to show serach results
-
-@syntax-deprecated-fg: darken(@syntax-color-modified, 50%);
+@syntax-deprecated-fg: darken(@syntax-color-modified, 40%);
 @syntax-deprecated-bg: @syntax-color-modified;
-@syntax-illegal-fg:    white;
-@syntax-illegal-bg:    @syntax-color-removed;
+@syntax-illegal-fg   : #fff;
+@syntax-illegal-bg   : @syntax-color-removed;
