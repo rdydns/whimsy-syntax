@@ -1,3 +1,1 @@
-## 1.0.0 - First Release
-* Every feature added
-* Every bug fixed
+See [https://github.com/rdydns/whimsy-syntax/releases](https://github.com/rdydns/whimsy-syntax/releases)
