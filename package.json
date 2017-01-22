@@ -1,0 +1,17 @@
+{
+  "name": "whimsy-syntax",
+  "theme": "syntax",
+  "version": "1.0.7",
+  "description": "Atom theme inspired by Carbonmade",
+  "keywords": [
+    "syntax",
+    "theme",
+    "whimsy",
+    "purple"
+  ],
+  "repository": "https://github.com/rod/whimsy-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
